@@ -77,7 +77,7 @@ Your `INSTANCE_DATA_DIR` should be structured like this:
 
 ### Step 1: Place Your Base Model
 
-Download your desired SDXL base model in `.safetensors` format and place it in the project's root directory. The script defaults to looking for `./MIDNIGHT_NAI-XL_vPredV1_Baked_VAE.safetensors`.
+Download your desired SDXL base model in `.safetensors` format and place it in the project's root directory. The script defaults to looking for `./Model.safetensors`.
 
 ### Step 2: Configure the Training Job
 
