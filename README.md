@@ -25,8 +25,8 @@ The script includes automatic latent caching, dataset bucketing, and detailed ve
 ### Installation Steps
 1.  **Clone the repository:**
 ```bash
-git clone <your-repo-link>
-cd <your-repo-name>
+git clone https://github.com/Hysocs/AozoraSDXLTrainer
+cd https://github.com/Hysocs/AozoraSDXLTrainer
 ```
 
 2.  **Create a virtual environment (recommended):**
