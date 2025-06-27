@@ -31,7 +31,7 @@ Image.MAX_IMAGE_PIXELS = 190_000_000
 # ====================================================================================
 # CONFIGURATION
 # ====================================================================================
-SINGLE_FILE_CHECKPOINT_PATH = "./MIDNIGHT_NAI-XL_vPredV1_Baked_VAE.safetensors"
+SINGLE_FILE_CHECKPOINT_PATH = "./Aozora-XL_vPredV1.safetensors"
 INSTANCE_DATA_DIR = "./DatasetV1/"
 OUTPUT_DIR = Path("./sdxl_cross_attn_simplified_output_optimized")
 CHECKPOINT_DIR = OUTPUT_DIR / "checkpoints"
