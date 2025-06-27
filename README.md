@@ -87,7 +87,7 @@ Open the training script (`train_sdxl.py`) in a text editor. All user-configurab
 # ====================================================================================
 # CONFIGURATION
 # ====================================================================================
-SINGLE_FILE_CHECKPOINT_PATH = "./MIDNIGHT_NAI-XL_vPredV1_Baked_VAE.safetensors"
+SINGLE_FILE_CHECKPOINT_PATH = "./MODEL_Vpred_or_eps.safetensors"
 INSTANCE_DATA_DIR = "./DatasetV1/"
 OUTPUT_DIR = Path("./sdxl_cross_attn_simplified_output_optimized")
 FORCE_RECACHE_LATENTS = False
