@@ -145,11 +145,7 @@ class ImageTextLatentDataset(Dataset):
 
 def filter_scheduler_config(s,c):return{k:v for k,v in s.items() if k in inspect.signature(c.__init__).parameters}
 
-# ====================================================================================
-# --- FINAL CORRECTED MAPPING FUNCTION ---
-# This is your original, working function with the single incorrect line removed.
-# This is proven correct by your diagnostic script.
-# ====================================================================================
+
 def _generate_hf_to_sd_unet_key_mapping(hf_keys):
     m = {hk: hk for hk in hf_keys}
     u_map = [
