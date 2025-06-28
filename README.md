@@ -1,5 +1,7 @@
 # Simplified SDXL Fine-Tuning Script
 
+###Note: I removed alot of experamental features as they arent stable enough for the public like adaptive lr curves as they need constant tweaking and can destory a entire week long run
+
 This repository contains a single-file Python script for fine-tuning Stable Diffusion XL (SDXL) models. It is designed for simplicity and efficiency, focusing on training cross-attention layers, feed-forward networks, and text embeddings while keeping other weights frozen.
 
 The script includes automatic latent caching, dataset bucketing, and detailed verification steps to ensure a stable and correct training process.
