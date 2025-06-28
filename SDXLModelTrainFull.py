@@ -125,9 +125,10 @@ def precompute_and_cache_latents(data_root, bucket_sizes, tokenizer1, tokenizer2
             save_path = cache_dir_for_image / f"{image_path.stem}.pt"
             
             torch.save({
-                "latents_cpu": latents_batch[j].cpu().to(compute_dtype),
-                "input_ids1_cpu": input_ids1[original_idx],
-                "input_ids2_cpu": input_ids2[original_idx],
+                # Also clone the latents slice for good measure
+                "latents_cpu": latents_batch[j].clone().cpu().to(compute_dtype),
+                "input_ids1_cpu": input_ids1[original_idx].clone(),
+                "input_ids2_cpu": input_ids2[original_idx].clone(),
                 "bucket_size": bucket_size
             }, save_path)
             
